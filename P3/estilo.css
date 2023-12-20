@@ -1,0 +1,182 @@
+body{
+    background: #BBD2C5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+    margin: 0;
+}
+
+/*#096668*/
+
+#menu{
+    background: rgb(187,210,197);
+    background: linear-gradient(45deg, rgba(187,210,197,1) 0%, rgba(83,105,118,1) 100%);   
+    width: 350px;
+    height: 1600px;
+    text-align: center;
+    box-shadow: 3px 0px 3px rgba(0, 0, 0, 0.3);
+    margin: -45px 0 0 0
+}
+
+.logo{
+    width:150px;
+    padding: 60px 0 0 0
+}
+
+h1{
+    font-size: 1.8rem;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    padding: 1rem 0;
+    flex-direction: column;
+    transition: 0.8s all ease;
+}
+
+a:hover{
+    background-color: rgb(28, 28, 28);
+    color: rgb(255, 255, 255);
+}
+
+header{
+    float: left;
+}
+
+.info01{
+    background: rgb(125,126,126);
+    background: linear-gradient(0deg, rgba(125,126,126,1) 0%, rgba(89,108,126,1) 100%);
+    color: whitesmoke;
+    margin: 2rem 2rem 1rem 24rem;
+    padding: 1.4rem;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.info02{
+    background: rgb(125,126,126);
+    background: linear-gradient(0deg, rgba(125,126,126,1) 0%, rgba(89,108,126,1) 100%);
+    color: whitesmoke;
+    margin: 2rem 2rem 1rem 2rem;
+    padding: 1.4rem;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.info03{
+    background: rgb(125,126,126);
+    background: linear-gradient(0deg, rgba(125,126,126,1) 0%, rgba(89,108,126,1) 100%);
+    color: whitesmoke;
+    margin: 2rem 2rem 1rem 2rem;
+    padding: 1.4rem;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.info04{
+    background: rgb(125,126,126);
+    background: linear-gradient(0deg, rgba(125,126,126,1) 0%, rgba(89,108,126,1) 100%);
+    color: whitesmoke;
+    margin: 2rem 2rem 1rem 2rem;
+    padding: 1.4rem;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.info05{
+    background: rgb(125,126,126);
+    background: linear-gradient(0deg, rgba(125,126,126,1) 0%, rgba(89,108,126,1) 100%);
+    color: whitesmoke;
+    margin: 2rem 2rem 1rem 2rem;
+    padding: 1.4rem;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.info06{
+    background: rgb(125,126,126);
+    background: linear-gradient(0deg, rgba(125,126,126,1) 0%, rgba(89,108,126,1) 100%);
+    color: whitesmoke;
+    margin: 2rem 2rem 1rem 2rem;
+    padding: 1.4rem;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.info07{
+    background: rgb(125,126,126);
+    background: linear-gradient(0deg, rgba(125,126,126,1) 0%, rgba(89,108,126,1) 100%);
+    color: whitesmoke;
+    margin: 2rem 2rem 1rem 2rem;
+    padding: 1.4rem;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.info08{
+    background: rgb(125,126,126);
+    background: linear-gradient(0deg, rgba(125,126,126,1) 0%, rgba(89,108,126,1) 100%);
+    color: whitesmoke;
+    margin: 2rem 2rem 1rem 2rem;
+    padding: 1.4rem;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h3{
+    font-size: 1.9rem;
+    text-align:center;
+    font-family:'Montserrat', sans-serif;
+    text-shadow: 3px 3px 3px 5px;
+}
+
+footer{
+    background-color: #536976;
+    margin: 0px;
+    padding: 0.5rem;
+    text-align: center;
+    clear: both;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+#video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+}
