@@ -1,16 +1,17 @@
 body{
-    background: #BBD2C5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */     
     margin: 0;
 }
+
 
 /*#096668*/
 
 #menu{
-    background: rgb(187,210,197);
-    background: linear-gradient(45deg, rgba(187,210,197,1) 0%, rgba(83,105,118,1) 100%);   
-    width: 350px;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     height: 1600px;
     text-align: center;
     box-shadow: 3px 0px 3px rgba(0, 0, 0, 0.3);
@@ -18,8 +19,10 @@ body{
 }
 
 .logo{
-    width:150px;
-    padding: 60px 0 0 0
+    width:250px;
+    width: 250px;
+    border-radius: 50%;
+    padding: 20px 0 0 0
 }
 
 h1{
@@ -43,12 +46,22 @@ a{
     display: flex;
     padding: 1rem 0;
     flex-direction: column;
-    transition: 0.8s all ease;
+    transition: 0.5s;
+    letter-spacing: 3px;
 }
 
 a:hover{
     background-color: rgb(28, 28, 28);
     color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(28, 28, 28);
+    box-shadow: 0 0 25px rgb(28, 28, 28);
+    box-shadow: 0 0 50px rgb(28, 28, 28);
+    box-shadow: 0 0 200px rgb(28, 28, 28);
+}
+
+a span{
+    position: absolute;
+
 }
 
 header{
@@ -56,8 +69,10 @@ header{
 }
 
 .info01{
-    background: rgb(125,126,126);
-    background: linear-gradient(0deg, rgba(125,126,126,1) 0%, rgba(89,108,126,1) 100%);
+   background: #44A08D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
     color: whitesmoke;
     margin: 2rem 2rem 1rem 24rem;
     padding: 1.4rem;
@@ -66,83 +81,86 @@ header{
 }
 
 .info02{
-    background: rgb(125,126,126);
-    background: linear-gradient(0deg, rgba(125,126,126,1) 0%, rgba(89,108,126,1) 100%);
+   background: #44A08D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color: whitesmoke;
-    margin: 2rem 2rem 1rem 2rem;
-    padding: 1.4rem;
+    margin: 2rem 2rem 1rem 10rem;
+    padding: 2rem;
     border-radius: 30px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     text-align: center;
 }
 
 .info03{
-    background: rgb(125,126,126);
-    background: linear-gradient(0deg, rgba(125,126,126,1) 0%, rgba(89,108,126,1) 100%);
+   background: #44A08D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color: whitesmoke;
-    margin: 2rem 2rem 1rem 2rem;
+    margin: 2rem 2rem 1rem 10rem;
     padding: 1.4rem;
     border-radius: 30px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 .info04{
-    background: rgb(125,126,126);
-    background: linear-gradient(0deg, rgba(125,126,126,1) 0%, rgba(89,108,126,1) 100%);
+   background: #44A08D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color: whitesmoke;
-    margin: 2rem 2rem 1rem 2rem;
+    margin: 2rem 2rem 1rem 10rem;
     padding: 1.4rem;
     border-radius: 30px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 .info05{
-    background: rgb(125,126,126);
-    background: linear-gradient(0deg, rgba(125,126,126,1) 0%, rgba(89,108,126,1) 100%);
+   background: #44A08D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color: whitesmoke;
-    margin: 2rem 2rem 1rem 2rem;
+    margin: 2rem 2rem 1rem 10rem;
     padding: 1.4rem;
     border-radius: 30px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 .info06{
-    background: rgb(125,126,126);
-    background: linear-gradient(0deg, rgba(125,126,126,1) 0%, rgba(89,108,126,1) 100%);
+   background: #44A08D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color: whitesmoke;
-    margin: 2rem 2rem 1rem 2rem;
+    margin: 2rem 2rem 1rem 10rem;
     padding: 1.4rem;
     border-radius: 30px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
-.info07{
-    background: rgb(125,126,126);
-    background: linear-gradient(0deg, rgba(125,126,126,1) 0%, rgba(89,108,126,1) 100%);
-    color: whitesmoke;
-    margin: 2rem 2rem 1rem 2rem;
-    padding: 1.4rem;
-    border-radius: 30px;
-    width: 200px;
-    height: 200px;
-}
 
 .info08{
-    background: rgb(125,126,126);
-    background: linear-gradient(0deg, rgba(125,126,126,1) 0%, rgba(89,108,126,1) 100%);
+   background: #44A08D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color: whitesmoke;
-    margin: 2rem 2rem 1rem 2rem;
+    margin: 2rem 2rem 1rem 10rem;
     padding: 1.4rem;
     border-radius: 30px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     text-align: center;
 }
+
 
 #conteudo{
     display: flex;
