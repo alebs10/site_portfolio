@@ -1,3 +1,4 @@
+
 body{
     background: #0F2027;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
@@ -38,7 +39,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
 }
 
-a{
+.link-menu{
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
@@ -50,7 +51,7 @@ a{
     letter-spacing: 3px;
 }
 
-a:hover{
+.link-menu:hover{
     background-color: rgb(28, 28, 28);
     color: rgb(255, 255, 255);
     box-shadow: 0 0 5px rgb(28, 28, 28);
@@ -197,4 +198,101 @@ p{
     font-weight: 700;
     text-align: center;
     text-decoration: underline;
+}
+
+.grafico{
+    display: flex;
+    justify-content: center;
+    margin: 6rem 2rem 1rem 24rem;
+}
+
+.redes{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+
+.sci{
+    position: relative;
+    display: flex;
+}
+
+.sci li{
+    list-style: none;
+}
+
+.sci li::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:14vw;
+    pointer-events: none;
+    font-weight: 700;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.sci li:hover::before{
+    opacity: 0.6;
+    transform: translate(-50%, calc(-50% + 200px));
+}
+
+.sci li a{
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 40px;
+    font-size: 4em;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
+    transition: background 0.25s;
+}
+
+.sci li a:hover.github{
+    background: #333;
+}
+
+.sci li a:hover.instagram{
+    background: #E4405f;
+}
+
+.sci li a:hover.linkedin{
+    background: #0e76a8;
+}
+
+.sci li a:hover.youtube{
+    background: #FF0000;
+}
+
+.sci li a .fa{
+    transition: 0.25s;
+    pointer-events: none;
+}
+
+.sci li a:hover .fa{
+    color: #fff;
+    transform: scale(1.75) translateZ(50px);
+}
+
+.js-tilt-glare{
+    border-radius: 10px;
 }
